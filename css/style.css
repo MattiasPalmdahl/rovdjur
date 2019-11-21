@@ -1,1 +1,35 @@
 /* Denna fil skall innehålla din CSS kod */
+
+#container {
+    display: grid; 
+    height: 812px;
+    width: 375;
+    grid-template-areas:
+    'nav'
+    'hd'
+    'mn'
+    'mn'
+    'ft'
+}
+
+#nav {
+grid-area: nav;
+background-color: grey;
+}
+
+#header {
+grid-area: hd;
+}
+
+#main {
+grid-area: mn;
+background: lightgrey;
+}
+
+#footer {
+    grid-area: ft;
+    background-color: grey;
+}
+
+
+
