@@ -3,7 +3,7 @@
 #container {
     display: grid; 
     height: 812px;
-    width: 375;
+    width: 375px;
     grid-template-areas:
     'nav'
     'hd'
@@ -15,20 +15,29 @@
 #nav {
 grid-area: nav;
 background-color: grey;
+width: 375px;
+height: 40px;
 }
 
 #header {
 grid-area: hd;
+background-color: lightslategray;
+width: 375px;
+height: 100px;
 }
 
 #main {
 grid-area: mn;
 background: lightgrey;
+width: 375px;
+height: 500px;
 }
 
 #footer {
     grid-area: ft;
     background-color: grey;
+    width: 375px;
+    height: 172;
 }
 
 
