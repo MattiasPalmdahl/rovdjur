@@ -12,33 +12,61 @@
     'ft'
 }
 
-#nav {
+nav {
 grid-area: nav;
-background-color: grey;
+background-color: white;
 width: 375px;
 height: 40px;
 }
 
-#header {
+header {
 grid-area: hd;
-background-color: lightslategray;
+background-color: white;
 width: 375px;
 height: 100px;
 }
 
-#main {
+main {
 grid-area: mn;
-background: lightgrey;
+background: white;
 width: 375px;
 height: 500px;
 }
 
-#footer {
+footer {
     grid-area: ft;
-    background-color: grey;
+    background-color: white;
     width: 375px;
     height: 172;
 }
 
+img {
+    width: 100%;
+}
 
+#img2 {
+    width: 39px;
+    margin: 1px;
+}
 
+p {
+    margin: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+#fottext {
+    display: block;
+    text-align: center;
+    margin: 32px;
+    font-size: large;
+    text-decoration-color: lightgrey;
+}
+
+body {
+    background-image: url("../img/skog.jpg");
+
+}
