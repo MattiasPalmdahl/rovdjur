@@ -35,7 +35,6 @@ height: 500px;
 
 footer {
     grid-area: ft;
-    background-color: white;
     width: 375px;
     height: 172;
 }
@@ -73,5 +72,12 @@ h1 {
 
 body {
     background-image: url("../img/skog.jpg");
+}
 
+#index2 {
+    background-image: url("../img/snoskog.jpg");
+}
+
+#index3 {
+    background-image: url("../img/varmskog.jpg");
 }
